@@ -1,0 +1,363 @@
+body {
+    display: inline-block;
+    background-color:rgb(243, 243, 243);
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    display: inline-block;
+}
+
+#header-container {
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    color: black;
+    width: 100%;
+    text-align: right;
+    height: 105vh;
+    padding: 20px;
+    background-image: url("Assets/Images/LandingBG.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+    margin-bottom: 5vh;
+}
+
+center {
+    display: block;
+    text-align: left;
+}
+
+center h1 {
+    font-size: 9em;
+    animation: fadeIn 3s;
+}
+
+#roles {
+    font-size: 1.5em;
+}
+
+#name {
+    font-size: 3em;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0.1;}
+    100% {opacity:1;}
+}
+
+#header-text {
+    padding-top: 20vh;
+}
+
+h2 {
+    font-size: 3em;
+    
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+}
+
+iframe {
+    display: inline-block;
+}
+
+.section > h2 {
+    text-align: center;
+}
+
+#resume {
+    text-align: center;
+}
+
+#resume > a {
+    display: inline-block;
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin: 5vh;
+    background-color: #CB0E5B;
+    color: white;
+    transition-duration: 1s;
+}
+
+#resume > a:hover {
+    border-radius: 50px;
+    transition-duration: 1s;
+    background-color: #DB0C35;
+}
+
+#resume > iframe {
+    display: inline-block;
+    width: 75%;
+    border-radius: 30px;
+    height: 60vh;
+    margin-top: 5vh;
+}
+
+.section:nth-child(even) {
+    background-image: url("Assets/Images/SectionBG.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section:nth-child(odd) {
+    background-image: url("Assets/Images/SectionBGinv.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.section>h2 {
+    padding-top: 2vh;
+}
+
+#about>ul {
+    width: 80%;
+    margin-left: 9.5%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+#about li {
+    padding: 20px;
+    font-size: 1.4em;
+}
+
+#profiles>ul {
+    width: 80%;
+    margin-left: 9.5%;
+    border-radius: 30px;
+    margin-top: 30px;
+    list-style: none;
+}
+
+#profiles li {
+    padding: 20px;
+    font-size: 1.4em;
+}
+
+#profiles a {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #CB0E5B;
+    color: white;
+    transition-duration: 1s;
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+}
+
+#profiles a:hover {
+    border-radius: 50px;
+    transition-duration: 1s;
+    background-color: #DB0C35;
+}
+
+#frames iframe {
+    width: 40%;
+    height: 80%;
+    margin: 9vh 4.5vw; 
+    border-radius: 30px;
+}
+
+#intern div {
+    width: 80%;
+    margin: 9%;
+}
+
+#intern li {
+    padding-top: 20px;
+    font-size: 1.4em;
+}
+
+#intern h3 {
+    font-size: 2.2em;
+}
+
+
+#intern h4 {
+    font-size: 1.6em;
+}
+
+td, th {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: solid 3px rgba(255, 255, 255, 0.1);
+    padding: 5px;
+    margin: 5px;
+}
+
+.table2 {
+    border-spacing: 0pt;
+    border-collapse: separate;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.table2 th, td {
+    padding: 10px;
+    border: solid 2px rgba(255, 255, 255, 0.1);
+}
+
+.table2 tr:first-child th:first-child, table tr:first-child td:first-child {
+    border-top-left-radius: 15px;
+}
+
+.table2 tr:first-child th:last-child, table tr:first-child td:last-child {
+    border-top-right-radius: 15px;
+}
+
+.table2 tr:last-child th:first-child, table tr:last-child td:first-child {
+    border-bottom-left-radius: 15px;
+}
+
+.table2 tr:last-child th:last-child, table tr:last-child td:last-child {
+    border-bottom-right-radius: 15px;
+}
+
+.table1 {
+    border-spacing: 0pt;
+    border-collapse: separate;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 125px;
+    width: 88%;
+    font-size: 1.2em;
+}
+
+.table1 th, td {
+    padding: 10px;
+    border: solid 2px rgba(255, 255, 255, 0.1);
+}
+
+.table1 tr:first-child th:first-child, table tr:first-child td:first-child {
+    border-top-left-radius: 15px;
+}
+
+.table1 tr:first-child th:last-child, table tr:first-child td:last-child {
+    border-top-right-radius: 15px;
+}
+
+.table1 tr:last-child th:first-child, table tr:last-child td:first-child {
+    border-bottom-left-radius: 15px;
+}
+
+.table1 tr:last-child th:last-child, table tr:last-child td:last-child {
+    border-bottom-right-radius: 15px;
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+#contact-container {
+    display: inline-block;
+    background-color: rgba(203, 14, 91, 0.7);
+    margin: 5%;
+    width: 88%;
+    height: 70vh;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+
+label {
+    font-size: 1.2em;
+}
+
+#form-left, #form-right {
+    width: 49%;
+    float: left;
+}
+
+#form-right {
+    width: 49%;
+    float: rigth;
+}
+
+#from-left input {
+    display: inline-block;
+    width: 85%;
+}
+
+.ipc {
+    display: inline-block;
+    width: 95%;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.f1 {
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    color: white;
+}
+
+#submit-button {
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    margin-top: 30px;
+}
+
+#submit-button:hover {
+    transition-duration: 0.7s;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    border: solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(203, 14, 91, 1);
+    color: black;
+    margin-top: 30px;
+}
+
+
+#message {
+    display: inline-block;
+    width: 100%;
+    height: 385px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    color: white;
+}
+
+#ip4 {
+    display: inline-block;
+    width: 95%;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+#from-right textarea {
+    display: inline-block;
+    width: 85%;
+}
+
+.l1 {
+    display: inline-block;
+    margin: 10px;
+}
+
+label>span {
+    color: rgba(0, 0, 0, .5);
+    font-size: 0.7em;
+    display: inline-block;
+    visibility: hidden;
+}

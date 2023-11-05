@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<!-- Bootstrap Scripts -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap" rel="stylesheet">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="./index.css">
+
+    <!-- JS Scripts -->
+	<script src="./index.js"></script>
+
+</head>
+<body onload="fixes()">
+    <main>
+        <div id = "header-container">
+            <center>
+                <h1>"Hello World!"</h1>
+            </center>
+
+            <div id ="header-text">
+                <h1 id = "name"> This is Harshitha Babu </h1>
+                <br>
+                <h3 id = "roles">Computer Engineer and Data Enthusiast</h3>
+            </div>
+            
+        </div>
+
+        <div id = "about" class = "section">
+            <h2>Get to know me</h2>
+            <ul>
+                <li>BS Computer Engineer Student @ Binghamton University</li>
+                <li>Working on Front-End Web development projects</li>
+                <li>Learning on Web development</li>
+                <li>Eager to work on open source projects</li>
+                <li>Hoping to work on Data Models</li>
+            </ul>
+        </div>
+
+        <div id = "profiles" class = "section"> 
+            <h2> Profile Handles & Contact</h2>
+            <ul>
+                <li><a href = "https://www.linkedin.com/in/harshithababu/" target = "_blank">LinkedIn</a></li>
+                <li><a href = "https://www.hackerrank.com/profile/harshithababu02" target = "_blank">Hackerrank</a></li>
+                <li><a href = "mailto:harshithababu02@gmail.com" target = "_blank">Gmail</a></li>
+            </ul>
+        </div>
+
+
+        <div id = "frames" class = "section">
+            <iframe src="./Frames/frame1.html" title="Accolades"></iframe>
+            <iframe src="./Frames/frame2.html" title="Interests"></iframe>
+        </div>
+
+        <div class="section" id = "tab1">
+            <h2>Education</h2>
+            <table class = "table1">
+                <tr>
+                    <th> Degree/Award </th>
+                    <th> College/Institution </th>
+                    <th> CGPA/Percentage </th>
+                    <th> Year of Graduation </th>
+                </tr>
+                <tr>
+                    <td> BS Computer Engineering </td>
+                    <td> Binghamton University </td>
+                    <td> 3.2* </td>
+                    <td> 2025 </td>
+                </tr>
+                <tr>
+                    <td> Class 12 </td>
+                    <td> Avila Convent Matriculation School, Coimbatore </td>
+                    <td> 88.5% </td>
+                    <td> 2021 </td>
+                </tr>
+                <tr>
+                    <td> Class 10 </td>
+                    <td> Avila Convent Matriculation School, Coimbatore </td>
+                    <td> 87.0% </td>
+                    <td> 2019 </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section" id = "tab2">
+            <h2>Projects</h2>
+            <table class = "table2">
+                <tr>
+                    <th> Project Title </th>
+                    <th> Description </th>
+                    <th> Tools & Languages Used </th>
+                </tr>
+                <tr>
+                    <th> 
+                        E-Commerce Website
+                    </th>
+                    <td>
+                        <ul>
+                            <li> Developed an e-commerce website for a brick-and-mortar clothing store using HTML, CSS and JavaScript. </li>
+                            <li> Optimized website performance by enhancing speed and ensuring reliability to enhance user experience. </li>
+                            <li> Implemented JavaScript to enhance the website's visual presentation, resulting in an attractive and user-friendly design. </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li> Front-End: Java Swing</li>
+                            <li> Back-End: Java, MySQL</li>
+                            <li> IDEs: MySQL WorkBench, NetBeans</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section" id="resume">
+            <h2>Resume</h2>
+            <a href="./Assets/Documents/Resume/Harshitha_Babu_Resume.pdf" target="_blank"> Download My Resume</a>
+            <br>
+            <iframe src="./Assets/Documents/Resume/Harshitha_Babu_Resume.pdf" title="Resume"></iframe>
+        </div>
+    </main>
+</body>
+</html>
